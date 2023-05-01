@@ -1,0 +1,33 @@
+.header {
+  background: var(--blue);
+  width: 100%;
+  height: 21.2rem;
+}
+
+.headerComponents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1120px;
+  padding-top: 3.6rem;
+  margin: auto;
+
+  button {
+    width: 19.5rem;
+    height: 4.8rem;
+    background: var(--blue-light);
+    border: none;
+    border-radius: 5px;
+    color: var(--shape);
+
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}

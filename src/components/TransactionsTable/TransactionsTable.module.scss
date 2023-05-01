@@ -1,0 +1,44 @@
+.transactionsTable {
+  margin-top: 4rem;
+  max-width: 1120px;
+  margin-inline: auto;
+
+  table {
+    width: 100%;
+    border-spacing: 0 0.8rem;
+    align-items: center;
+
+    th {
+      color: var(--text);
+      padding: 1.6rem 3.2rem;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      text-align: left;
+      align-items: center;
+    }
+
+    td {
+      padding: 1.6rem 3.2rem;
+      border: 0;
+      background: var(--shape);
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      color: var(--text);
+      align-items: center;
+
+      border-radius: 0.5rem;
+
+      &:first-child {
+        color: var(--title);
+      }
+
+      &.deposit {
+        color: var(--green);
+      }
+
+      &.withdraw {
+        color: var(--red);
+      }
+    }
+  }
+}
